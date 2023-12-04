@@ -1,2 +1,2 @@
-# portifolio
-Página de portifólio
+# portfolio
+Página de portfólio
