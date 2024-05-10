@@ -2780,7 +2780,7 @@ textarea.form-control-lg {
   text-align: center;
   align-items: center;
   justify-content: center;
-  position:relative;
+  position:static;
 
   text-decoration: none;
   vertical-align:bottom;
