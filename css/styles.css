@@ -2770,7 +2770,7 @@ textarea.form-control-lg {
   --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
   --bs-btn-disabled-opacity: 0.65;
   --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
-  display:inline-flex;
+  display:inline;
   padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
   font-family: var(--bs-btn-font-family);
   font-size: var(--bs-btn-font-size);
@@ -2781,10 +2781,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: center;
   position:relative;
-  
-  
-  
- 
+
   text-decoration: none;
   vertical-align:bottom;
   cursor: pointer;
