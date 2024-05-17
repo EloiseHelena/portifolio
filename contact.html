@@ -44,7 +44,7 @@
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
                                
-                                <form id="contactForm" data-sb-form-api-token="ebb8b3e7-1ef3-49ff-9eee-e90dae114a20">
+                                <form id="contactForm" action="https://api.staticforms.xyz/submit" method="post">
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="name" type="text" name="name"placeholder="Enter your name..." data-sb-validations="required" />
                                         <label for="name">Nome Completo</label>
@@ -78,9 +78,10 @@
                                     </div>
                             
                                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erro ao enviar mensagem!</div></div>
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button></div>
-                                    <input type="hidden" name="redirectTo" href="obrigado.html"> 
+                                    <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button></div>
 
+                                    <input type="hidden" name="accessKey" value="02371756-ddf1-475f-89eb-b4a60d1ed0c3">
+                                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html"> 
 
                                 </form>
                             </div>
